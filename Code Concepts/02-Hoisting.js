@@ -1,3 +1,12 @@
+//#region Notes: Hoisting in JavaScript
+// Hoisting means declarations are moved to the top of their scope during compilation.
+// - var: declaration is hoisted and initialized with undefined.
+// - let/const: declaration is hoisted, but not initialized (Temporal Dead Zone).
+//   Accessing them before declaration throws ReferenceError.
+// - function declarations: fully hoisted, so they can be called before their definition.
+// - function expressions (especially with let/const): follow variable hoisting rules.
+//#endregion
+
 //#region User Helpers
 console.log("");
 console.log("****** Exemple 1 ******");
